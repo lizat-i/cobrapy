@@ -164,4 +164,5 @@ class Summary(ABC):
 
     def to_frame(self) -> pd.DataFrame:
         """Return the a data frame representation of the summary."""
+        print('HALALJSDLKAFSDJKHASKJDHKJSDHASJKDHAKJSDHLJKAHSJKHDJKADHKADHKAJSLDHKLJASDH')
         return self._flux.copy()

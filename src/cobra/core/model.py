@@ -1204,6 +1204,8 @@ class Model(Object):
         Metabolite.summary
 
         """
+        
+        print('HOLA'*20)
         from cobra.summary import ModelSummary
 
         return ModelSummary(model=self, solution=solution, fva=fva)
